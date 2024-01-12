@@ -6,7 +6,16 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.btn-primary {}
+.btn-primary {
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 20px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
 
 /* header section style */
 
@@ -46,12 +55,14 @@ nav ul li a {
 /* banner style */
 .banner img {
     filter: blur(10px);
+    width: 100%;
 }
 
 .banner-content {
     max-width: 607px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .banner-title {
@@ -62,4 +73,29 @@ nav ul li a {
 
 .banner-description {
     color: #727272;
+}
+
+/* Responsive media queries */
+
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* tablet Devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    nav {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 50px;
+    }
 }
