@@ -129,7 +129,7 @@ nav ul li a {
     font-weight: 700;
 }
 
-.teams-title .features {
+.teams-title .features-text {
     color: #FF900E;
     font-weight: 700;
 }
@@ -266,6 +266,7 @@ nav ul li a {
 /*footer style */
 footer p {
     text-align: center;
+    margin: 40px 0;
 }
 
 /* Responsive media queries */
