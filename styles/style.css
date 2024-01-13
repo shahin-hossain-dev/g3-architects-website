@@ -263,7 +263,10 @@ nav ul li a {
     filter: none;
 }
 
-/* */
+/*footer style */
+footer p {
+    text-align: center;
+}
 
 /* Responsive media queries */
 
